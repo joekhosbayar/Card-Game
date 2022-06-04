@@ -11,6 +11,8 @@
 		B6C7121F284A9B0000E91126 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7121E284A9B0000E91126 /* ContentView.swift */; };
 		B6C71221284A9B0200E91126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C71220284A9B0200E91126 /* Assets.xcassets */; };
 		B6C71224284A9B0200E91126 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C71223284A9B0200E91126 /* Preview Assets.xcassets */; };
+		B6C7122B284A9E7700E91126 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7122A284A9E7700E91126 /* Card.swift */; };
+		B6C7122D284AAA1400E91126 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7122C284AAA1400E91126 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B6C7121E284A9B0000E91126 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6C71220284A9B0200E91126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C71223284A9B0200E91126 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6C7122A284A9E7700E91126 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B6C7122C284AAA1400E91126 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B6C7121C284A9B0000E91126 /* WarGameApp.swift */,
 				B6C7121E284A9B0000E91126 /* ContentView.swift */,
+				B6C7122A284A9E7700E91126 /* Card.swift */,
+				B6C7122C284AAA1400E91126 /* Deck.swift */,
 				B6C71220284A9B0200E91126 /* Assets.xcassets */,
 				B6C71222284A9B0200E91126 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C7122D284AAA1400E91126 /* Deck.swift in Sources */,
 				B6C7121F284A9B0000E91126 /* ContentView.swift in Sources */,
+				B6C7122B284A9E7700E91126 /* Card.swift in Sources */,
 				B6C7121D284A9B0000E91126 /* WarGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
